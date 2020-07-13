@@ -28,11 +28,18 @@ categories: study
       -> 이전 layer의 파라미터에 의해서 현재 layer input의 분포가 바뀜 = Covariate shitf
       
  
+    1-3 whitening
     
-    
+        Covariate shitf 문제를 줄이는 방법 중 하나가 입력을 whitening 시키는 것
+        입력을 평균 0, 분산 1 인 데이터로 정규화시킴.
+       
+        
+        하지만 계산량이 많고 일부 파라미터가 무시될 수 있다. (whitening 과정과 backpropa 과정은 무관하여 특정
+        파라미터가 계속 커지며 whitening이 진행될 수 있음)
+        
+        이러한 단점을 보완하고, Covariate shitf 문제를 해결하기 위해서 BN(batch Normalizaion)을 사용
+        
  
-     
-     
      
      
   
