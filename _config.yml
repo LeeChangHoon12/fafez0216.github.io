@@ -95,9 +95,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Lee Chang Hoon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "공부한 내용 포스팅 중입니다."
   location         : "Somewhere"
   email            :
   links:
